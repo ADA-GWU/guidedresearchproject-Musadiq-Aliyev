@@ -3,7 +3,7 @@ transaction_id,
 merchant_category_code,
 transaction_date,
 merchant_catergory_description,
-amoiunt,
+amount,
 card_name
 from xxx.transaction_table
 where upper(substr(transaction_type,0,2)) in ('xx')
